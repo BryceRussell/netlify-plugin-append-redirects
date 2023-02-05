@@ -1,13 +1,22 @@
-# netlify-plugin-append-redirects
+# `netlify-plugin-append-redirects`
 
-Ability to use a `_redirect` file at root of project using Astro SSR/SSG
+Use a `_redirect` file at the root of your Astro project (SSR/SSG)
 
 ## How to Use
 
-- Add plugin to netlify config
-- Create a `_redirect` file at the root of your project
-- Deploy to Netlify and test redirect
+1) **Install plugin**: 
 
-## TODO
+```
+npm i netlify-plugin-append-redirects
+```
 
- - make location of user created `_redirect` configurable
+2) **Add plugin to `netlify.toml`**:
+
+```toml
+[[plugins]]
+    package = "netlify-plugin-append-redirects"
+```
+
+3) **Create a `_redirect` file at the root of your project**:
+
+4) **Deploy to Netlify**
