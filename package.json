@@ -1,6 +1,6 @@
 {
   "name": "netlify-plugin-append-redirects",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Netlify Build plugin, allows you to use a _redirect file at root of project, compatible with Astro SSR/SSG",
   "author": "Bryce Russell",
   "license": "MIT",
